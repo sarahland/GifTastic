@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Giphy Fun!</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+      <div id="fullSiteContainer" class="container">
+        <div id="animalButtonSection" class="row container">
+        <!-- animal buttons get appended here -->
+        </div>
+        <div id="imageAndFormContainer" class="row container">
+            <div id="imageContainer" class="container col-md-9">
+              <!-- images get appended here -->
+            </div>
+            <div id="formContainer" class="container col-md-3">
+              <form>
+                <div class="form-group">
+                  <label for="getAnimal">Enter an Animal!</label>
+                  <input id="getAnimal" type="text" class="form-control" placeholder="animal" autocomplete="off">
+                  <input id="findAnimal" type="submit" value="woof"></input>
+                    
+                  </input>
+                </div>
+              </form>
+            </div>
+        </div>
+      </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
